@@ -1,0 +1,33 @@
+{
+  "name": "Machine",
+  "description": "A Machine model.",
+  "plural": "Machines",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "id" : true,
+      "generated" : false
+    },
+    "position": {
+      "type": "number"
+    },
+    "Closing time": {
+      "type": "number",
+      "postgresql": {
+        "dataType": "float"
+      }
+    },
+    "active": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

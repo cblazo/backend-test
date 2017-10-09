@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "backendDB": {
+    "host": "localhost",
+    "port": 5432,
+    "url": "postgres://postgres:password@localhost/backend-test",
+    "database": "backend-test",
+    "password": "password",
+    "name": "backendDB",
+    "user": "postgres",
+    "connector": "postgresql"
+  }
+}
